@@ -1,0 +1,253 @@
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { @media
+{
+  select {
+    -webkit-appearance: none;
+  }
+}}
+
+/* IOS */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
+
+}
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
+
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+
+}
+
+@media only screen and (min-width: 1601px) {
+
+
+}
+
+@media only screen and (max-width: 1440px) {
+  .full-inner .user-login {
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .top-navigation {
+    width: auto;
+  }
+
+}
+
+@media only screen and (max-width: 1024px) {
+  .full-inner .user-login {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .full-inner .user-login {
+    width: 35%;
+  }
+
+  .user-profile .circle-image img {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+  .resume-content table tbody tr td:nth-of-type(1) {
+    width: auto;
+  }
+
+  .notify {
+    max-width: 90%;
+  }
+
+  .dashboard-top h1 {
+    text-align: center;
+  }
+
+  .user-profile .circle-image {
+    width: 25%;
+  }
+
+  .form-group.has-button {
+    text-align: center;
+  }
+
+  .resume-detail img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .resume-action .dropdown-menu {
+    left: initial;
+    right: 0;
+  }
+
+  .top-content .search-resume {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .top-content {
+    border-bottom: none;
+  }
+
+  .top-content:before {
+    display: none;
+  }
+
+  .full-inner .user-login {
+    width: 50%;
+  }
+
+  .full-page .top-title h2 {
+    font-size: 165%;
+  }
+
+
+
+}
+
+
+
+@media only screen and (max-width: 480px) {
+  .user-profile .circle-image {
+    width: 20%;
+  }
+
+  .has-right-border {
+    border-right: none;
+  }
+
+  .resume-img img {
+    height: 35%;
+    width: 35%;
+    margin: 20px auto;
+    border-radius: 50%;
+  }
+
+  .resume-panel.has-photo .profile-name {
+    padding-left: 20px;
+  }
+
+  .dual-list .list-item {
+    width: 45%;
+  }
+
+  .resume-pagination li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+  }
+
+  .user-profile,
+  .user-profile .user-profile, .user-profile .edit-option,
+  .profile-extended,
+  .profile-extended .profile-form, .profile-extended .profile-photo {
+    display: block;
+  }
+
+  .edit-option .btn-edit {
+    display: block;
+    width: 100%;
+    margin: 20px 0 0;
+  }
+
+  .profile-extended .profile-form, .profile-extended .profile-photo {
+    width: 100%;
+  }
+  .profile-extended {
+    border: none;
+  }
+
+  .full-inner .user-login {
+    width: 70%;
+  }
+
+  .full-page .top-title h2 {
+    line-height: initial;
+    padding: 30px;
+  }
+
+
+}
+
+@media only screen and (max-width: 390px) {
+  .resume-pagination li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+
+  .full-inner .user-login {
+    width: 90%;
+    margin-top: 20px;
+  }
+
+  .dashboard-top h1 {
+    font-size: 150%;
+  }
+
+  .resume-entry .resume-panel h2 {
+    font-size: 120%;
+  }
+
+  .resume-panel.has-photo .resume-control {
+    top: 0;
+    padding: 4px 10px;
+    font-size: 13px;
+  }
+
+  .resume-entry .resume-control {
+    padding: 4px 10px;
+    font-size: 13px;
+  }
+
+  .dual-list .list-item {
+    width: auto;
+  }
+
+  #editProfile .btn-save.cancel {
+    margin-left: auto;
+  }
+
+  #editProfile .btn-save {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .user-profile .circle-image img {
+    margin-bottom: 20px;
+  }
+
+  .resume-pagination li:first-child,
+  .resume-pagination li:last-child {
+    display: block;
+    margin: 20px auto;
+    max-width: 80%;
+  }
+
+
+
+
+
+
+}
+
+
+
+
+
+
